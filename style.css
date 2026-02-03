@@ -1,66 +1,64 @@
 * {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1 {
+  background-color: rgb(31, 39, 45);
+  color: aliceblue;
+  height: 5rem;
+  line-height: 5rem;
+}
+.choice {
+  margin-top: 3rem;
+  height: 170px;
+  width: 150px;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choice:hover {
+  opacity: 69%;
+  cursor: pointer;
+}
 
+img {
+  height: 170px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 20%;
 }
-h1{
-    background-color: rgb(31, 39, 45);
-    color: aliceblue;
-    height: 5rem;
-    line-height: 5rem;
+body {
+  background-color: rgb(101, 213, 238);
 }
-.choice{
-    height: 170px;
-    width: 150px;
-    border-radius: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.choices {
+  gap: 3rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
-    .choice:hover{
-        opacity: 69%;
-    cursor: pointer;
-    
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+  gap: 5rem;
 }
-
-img{
-    height: 170px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 20%;
+#you,
+#camp {
+  font-size: 4rem;
 }
-body{
-    background-color:rgb(101, 213, 238);
+#msg {
+  background-color: rgb(8, 7, 3);
+  color: #fff;
+  font-size: 3rem;
+  margin: top 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
 }
-.choices{
-    gap: 3rem;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-
-}
-.score-board{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    margin-top: 3rem;
-    gap: 5rem;
-}
-#you,#camp{
-    font-size: 4rem;
-}
-#msg{
-    background-color: gold;
-    color: #fff;
-    font-size: 4rem;
-    margin: top 2rem;
-    display: inline;
-    padding: 1remgit;
-    border-radius: 2rem;
-}
-.msg-container
-{
-    margin-top: 2rem;
+.msg-container {
+  margin-top: 2rem;
 }
